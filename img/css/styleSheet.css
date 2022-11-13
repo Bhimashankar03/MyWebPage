@@ -1,0 +1,167 @@
+.{
+    padding: 0;
+    margin:0;
+}
+
+
+.navbar
+{
+  padding:60px;
+background: rgb(171, 209, 218);
+
+}
+.navbar ul{
+    overflow: hidden;
+    float: right;
+    margin-right: 20px;
+}
+
+lable.logo{
+    font-size: 45px;
+    padding: 0 100px;
+    margin-left: -350px;
+    font-weight: bold;
+}
+.button1{
+    background-color: #39949a;
+    color:whitesmoke;
+    border: none;
+    padding: 6px;
+    
+    border-radius: 6px;
+     
+}
+.button1:hover{
+    color: black;
+}
+.button{
+background-color: #39949a;
+color:whitesmoke;
+border: none;
+padding: 6px;
+width: 80px;
+border-radius: 6px;
+}
+.button:hover{
+    color:black;
+}
+
+.btn{
+  
+background-color:aqua;
+    }
+    .btn-content{
+        background-color: antiquewhite;
+        display: none;
+        position:absolute;
+        min-width: 180px;
+        margin-top: 110px;
+    }
+    .btn-content a{
+       
+        text-align: justify;
+        width: 160px;
+        padding: 10px;
+        background-color: aqua;
+        display: block;
+        text-decoration: none;
+
+    }
+    .btn-content a:hover{
+        background-color: #39949a;
+        color: aliceblue;
+    }
+
+
+    .btn:hover .btn-content{
+    display: block;
+    color:whitesmoke;
+}
+.navbar li{
+    
+    float: left;
+    list-style: none;
+    
+    margin-top:80px ;
+}
+.navbar li a{
+    text-decoration: none;
+    color:rgb(27, 27, 25);
+    background-color: #007bff;
+    padding: 8px;
+    border: #007bff;
+    border-radius: 6px;
+
+  
+}
+.navbar-toggler-icon{
+
+}
+ .navbar li a:hover{
+    color: white;
+}
+.input-field {
+    width: 80%;
+    padding: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+ text-align:initial;
+margin-left: 25px;
+  }
+
+  .background{
+    background: linear-gradient( 0deg, rgba(200, 207, 202, 0.3), rgba(200, 207, 202, 0.3) ), url(../img/login.jpg);
+    background-size: cover;
+  }
+  .btn1{
+    background-color: dodgerblue;
+  color: white;
+  padding: 10px ;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: 35px;
+  }
+  .btn1:hover{
+    opacity: 1;
+   background-color: #007bff ;
+
+  }
+
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+.box{
+    height:450px;
+    width:360px;
+    background-image: linear-gradient(to right, #133c55, #3683dc);
+  color: azure;
+ margin:100px 460px;
+ border-radius: 10px;
+ padding: 30px;
+}
+
+.footer{
+    width: 100%;
+      background-color: antiquewhite;
+}
+.hover{
+background-color: aqua;
+color: aquamarine;
+}

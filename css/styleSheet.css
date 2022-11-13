@@ -1,0 +1,346 @@
+.{
+    padding: 0;
+    margin:0;
+}
+#div1 {
+  width: 200px;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid #aaaaaa;
+}
+
+#div2 {
+  width: 200px;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid #aaaaaa;
+
+
+  margin-top: -124px;
+  margin-left: 250px;
+}
+
+.navbar
+{
+   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/banner.jpg);
+  width: 100%;
+  padding:60px;
+}
+.navbar ul{
+    overflow: hidden;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+  }
+  
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+  button {
+    border-radius: 0;
+  }
+  
+  button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+  }  
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+
+
+
+
+
+lable.logo{
+    font-size: 45px;
+    padding: 0 100px;
+    margin-left: -450px;
+    font-weight: bold;
+}
+.button1{
+    background-color: #39949a;
+    color:whitesmoke;
+    border: none;
+    padding: 6px;
+    
+    border-radius: 6px;
+     
+}
+.button1:hover{
+    color: black;
+}
+.button{
+background-color: #39949a;
+color:whitesmoke;
+border: none;
+padding: 6px;
+width: 80px;
+border-radius: 6px;
+}
+.button:hover{
+    color:black;
+}
+
+
+
+.btn2{
+    border-radius: none;
+   
+    }
+    .btn2 a{
+        border-radius: 6px;
+        text-decoration: none;
+        color:rgb(27, 27, 25);
+        background-color: #007bff;
+        padding: 8px;
+        border: #007bff;
+        border-radius: none;
+      
+    }
+    .btn2 a:hover{
+        color:aliceblue;
+    }
+    .btn2-content{
+        background-color: rgb(161, 141, 111);
+        display: none;
+        position:absolute;
+        min-width: 180px;
+        margin-top: 7px;
+        border-radius: none;
+    }
+    .btn2-content a
+    {       
+        text-align: justify;
+        
+        width: 160px;
+        padding: 10px;
+        background-color: aqua;
+        display: block;
+        text-decoration: none;
+        border-radius: 0px;
+
+    }
+    .btn2-content a:hover{
+        background-color: #39949a;
+        color: aliceblue;
+    }
+
+
+    .btn2:hover .btn2-content{
+    display: block;
+    color:whitesmoke;
+}
+.navbar ul li{
+    
+    float: right;
+    list-style: none;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    color:rgb(27, 27, 25);
+    background-color: #007bff;
+    padding: 8px;
+    border: #007bff;
+    border-radius: 6px;
+
+  
+}
+
+ .navbar li a:hover{
+    color: white;
+}
+.input-field {
+    width: 85%;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+ text-align:initial;
+margin-left: 25px;
+  }
+.container a{
+    color:aqua;
+}
+.container a:hover{
+    color:#39949a;
+}
+  .boxA{
+       background: linear-gradient( 0deg, rgba(200, 207, 202, 0.3), rgba(200, 207, 202, 0.3) ), url(../img/background.jpg);
+       background-size: cover;
+  }
+  .backgroundA{
+    padding: 40px;
+    background: linear-gradient( 0deg, rgba(200, 207, 202, 0.3), rgba(200, 207, 202, 0.3) ), url(../img/background1.jpg);
+
+  background-size: cover;
+}
+.btn3{
+    padding: 5px;
+    width: 25%;
+    margin-left: 170px;
+    border-radius: 8px;
+    background-color: #abacad82;
+    border: 1px solid rgb(134, 133, 133);
+}
+.btn3:hover{
+    background-color: rgb(134, 133, 133);
+    color: aliceblue;
+}
+.nav{
+    padding:60px;
+    height: 180px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(../img/banner.jpg);
+}
+.input-field1{
+    width: 30%;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    text-align:initial;
+     
+}
+.input-field2{
+    width: 45%;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    text-align:initial;
+     
+}
+.input-field3 {
+    width: 85%;
+    padding: 5px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+ text-align:initial;
+
+  }
+
+  .background{
+    background: linear-gradient( 0deg, rgba(200, 207, 202, 0.3), rgba(200, 207, 202, 0.3) ), url(../img/login.jpg);
+    background-size: cover;
+  }
+  .btn1{
+    background-color: dodgerblue;
+  color: white;
+  padding: 10px ;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: 35px;
+  }
+  .btn1:hover{
+    opacity: 1;
+   background-color: #007bff ;
+
+  }
+  .btn4{
+    background-color: dodgerblue;
+  color: white;
+  padding: 10px ;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+ 
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: 505px;
+  }
+  .btn4:hover{
+    opacity: 1;
+   background-color: #007bff ;
+
+  }
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+.box{
+    height:450px;
+    width:400px;
+    background-image: linear-gradient(to right, #133c55, #3683dc);
+  color: azure;
+ margin:100px 460px;
+ border-radius: 10px;
+ padding: 30px;
+}
+
+.footer{
+    width: 100%;
+      padding:50px;
+    background: linear-gradient( rgba(12, 12, 12, 0.3), rgba(19, 19, 42, 0.3) ) ,url(../img/footer1.jpg);
+
+      
+}
+.footer li{
+    list-style: none;
+    
+}
+.footer li a{
+    
+    color: rgb(242, 238, 240);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.footer li a:hover{
+    color:#3683dc;
+}
+
+.hover{
+background-color: aqua;
+color: aquamarine;
+}
